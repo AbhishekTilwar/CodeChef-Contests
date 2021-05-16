@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -8,14 +7,11 @@ int main()
     cin>>t;
     while(t--){
         cin>>n>>x>>k;
-        s=(n+1)%k;
-       
-        if(x%k==0||x%k==s)
+        s=(n+1-x)%k;
+        if(x%k==0||s==0)
             cout<<"YES"<<endl;
         else
             cout<<"NO"<<endl;
     }
 }
 
-
-//x%k==(n+1)%k
