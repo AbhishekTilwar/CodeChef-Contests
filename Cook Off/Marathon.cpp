@@ -20,8 +20,6 @@ int main()
         }
         else { cout<<C<<endl;
         }
-
-    }
-   
+    } 
     return 0;
 }
