@@ -26,7 +26,7 @@ int main()
 
 
 
-// Another Approach
+// Similar Approach
 #include <iostream>
 #include <climits>
 #define ll long long int
