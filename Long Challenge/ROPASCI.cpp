@@ -1,5 +1,6 @@
-#include <bits/stdc++.h>
+#Rock Paper Scissor
 
+#include <bits/stdc++.h>
 using namespace std;
 
 char battle(char a , char b)
