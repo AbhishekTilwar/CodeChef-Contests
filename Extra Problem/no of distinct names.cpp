@@ -18,7 +18,7 @@ int main(){
         str.insert(s);
 
     }
-    }
+  }
 
     cout<<str.size();
 
