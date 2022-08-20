@@ -1,16 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-https://prepinsta.com/accenture/coding/
-
-
 int operationstr(vector<int> arr,int num, int dif){
     int count=0;
     
     for(int i=0; i<arr.size(); i++){
-            int temp_dif=0;
-            temp_dif=abs(arr[i]-num);
-            if(temp_dif<=dif){
+            if(abs(arr[i]-num)<=dif){
                 count++;
             }
             
@@ -27,9 +22,17 @@ int main(){
         cin>>x;
         arr.push_back(x);
     }
-    int dif;
-    cin>>dif;
     int num;
     cin>>num;
+    int dif;
+    cin>>dif;
     cout<<operationstr(arr, num, dif);
 }
+
+/*
+12 3 14 56 77 13
+13
+2
+o/p:
+3
+*/
