@@ -1,4 +1,7 @@
-/* You are given an array  of  elements which is a permutation. You are required to perform the following operation exactly one time:
+/*
+https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/practice-problems/algorithm/smallest-permutation-5584d662/
+
+You are given an array  of  elements which is a permutation. You are required to perform the following operation exactly one time:
 
 Select two different indices i, j and swap elements at these indices.
 Your task is to find the lexicographically (Sorted Array) smallest array  you can achieve. 
